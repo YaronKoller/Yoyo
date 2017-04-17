@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B1814FF1E74E1BD002C7E41 /* lexer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B1814FD1E74E1BD002C7E41 /* lexer.cpp */; };
+		8B841FEB1E9AC48D0084631D /* token.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B841FE91E9AC48D0084631D /* token.cpp */; };
 		8BB755DB1E6CC3010084FEAA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8BB755DA1E6CC3010084FEAA /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +25,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		8B1814FD1E74E1BD002C7E41 /* lexer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = lexer.cpp; sourceTree = "<group>"; };
+		8B1814FE1E74E1BD002C7E41 /* lexer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = lexer.hpp; sourceTree = "<group>"; };
+		8B841FE91E9AC48D0084631D /* token.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = token.cpp; sourceTree = "<group>"; };
+		8B841FEA1E9AC48D0084631D /* token.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = token.hpp; sourceTree = "<group>"; };
 		8BB755D71E6CC3000084FEAA /* Yoyo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Yoyo; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BB755DA1E6CC3010084FEAA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				8BB755DA1E6CC3010084FEAA /* main.cpp */,
+				8B841FEA1E9AC48D0084631D /* token.hpp */,
+				8B841FE91E9AC48D0084631D /* token.cpp */,
+				8B1814FE1E74E1BD002C7E41 /* lexer.hpp */,
+				8B1814FD1E74E1BD002C7E41 /* lexer.cpp */,
 			);
 			path = Yoyo;
 			sourceTree = "<group>";
@@ -119,7 +129,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B1814FF1E74E1BD002C7E41 /* lexer.cpp in Sources */,
 				8BB755DB1E6CC3010084FEAA /* main.cpp in Sources */,
+				8B841FEB1E9AC48D0084631D /* token.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,6 +258,7 @@
 				8BB755E01E6CC3010084FEAA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
