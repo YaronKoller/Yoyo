@@ -34,12 +34,12 @@ std::string Token::toString()
             oss << "IF";
             break;
             
-        case TokenType::PRINT:
-            oss << "PRINT";
+        case TokenType::INT:
+            oss << "INT";
             break;
             
-        case TokenType::TYPE:
-            oss << "TYPE";
+        case TokenType::PRINT:
+            oss << "PRINT";
             break;
             
         case TokenType::WHILE:

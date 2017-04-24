@@ -202,13 +202,13 @@ void Lexer::appendToTokens(DfaState state, const std::string & lexeme)
             {
                 type = TokenType::IF;
             }
+            else if (lexeme == "int")
+            {
+                type = TokenType::INT;
+            }
             else if (lexeme == "print")
             {
                 type = TokenType::PRINT;
-            }
-            else if (lexeme == "int")
-            {
-                type = TokenType::TYPE;
             }
             else if (lexeme == "while")
             {

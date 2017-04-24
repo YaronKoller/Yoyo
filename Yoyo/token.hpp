@@ -19,8 +19,8 @@ enum class TokenType
     // Keywords
     ELSE,       // else
     IF,         // if
+    INT,        // int
     PRINT,      // print
-    TYPE,       // int
     WHILE,      // while
     
     // Operators
