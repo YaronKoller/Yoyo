@@ -1,5 +1,5 @@
 # Yoyo
-An interpreter for Yolang, my own programming language.
+Yoyo is an interpreter for **Yolang**, a statically typed scripting language with C-like syntax.
 
 Since the parser is not yet complete, Yoyo currently simply reads a line of input, tokenizes it, prints a string representation of the result to stdout, and repeats. On a lexical error, an error message is printed to stderr but execution continues.
 
